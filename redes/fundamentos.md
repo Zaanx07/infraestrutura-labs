@@ -34,11 +34,23 @@ São conjuntos de regras e padrões que definem como os dispositivos se comunica
 
 ### LAN (Local Area Network)
 
-> 
+É uma rede de computadores que conecta dispositivos dentro de uma área geográfica limitada, como uma residência, escritório ou edifício.
+
+### Exemplo de LAN
+
+- Rede doméstica
+- Rede de um escritório
+- Rede de uma escola
 
 ### WAN (Wide Area Network)
 
-> 
+É uma rede de longa distância que conecta múltiplas redes locais (LANs) através de grandes áreas geográficas, como cidades, países ou continentes. É utilizada tanto em infraestruturas públicas quanto privadas.
+
+### Exemplo de WAN
+
+- Internet
+- Rede corporativa entre filiais de uma empresa
+
 ---
 
 ## Principais Componentes de uma Rede
