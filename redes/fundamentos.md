@@ -89,36 +89,63 @@ São conjuntos de regras e padrões que definem como os dispositivos se comunica
 
 ### O que é um endereço IP?
 
-> 
+É um endereço lógico utilizado para identificar um dispositivo em uma rede e permitir a comunicação entre equipamentos.
 
 ### IP Público
 
-> 
+É o endereço IP único que identifica um dispositivo ou rede na Internet. Pode ser acessado pela Internet, é atribuído pelo provedor de serviços (ISP) e deve ser único em nível mundial.
+
+**Analogia:** É como o endereço da sua casa dentro de uma cidade.
 
 ### IP Privado
 
-> 
+É o endereço IP utilizado dentro de uma rede local (LAN) para identificar dispositivos internamente. Não é acessível diretamente pela Internet, pode ser reutilizado em diferentes redes e geralmente é atribuído por um roteador ou servidor DHCP.
+
+**Analogia:** É como o número de um apartamento ou sala dentro de um edifício.
+
+---
+
+## MAC
+
+Os endereços MAC (Media Access Control) são identificadores de 48 bits atribuídos às interfaces de rede. Também são conhecidos como endereços físicos e são representados em formato hexadecimal.
+
+Esses endereços são utilizados para identificar dispositivos em uma comunicação dentro da rede local.
 
 ---
 
 ## Gateway
 
-> 
+É o dispositivo ou endereço responsável por permitir a saída de uma rede local para outras redes ou para a Internet.
+
+Normalmente, o gateway corresponde ao endereço IP do roteador da rede.
 
 ---
 
 ## DNS
 
-> 
+DNS (Domain Name System) é o sistema responsável por traduzir nomes de domínio, como `google.com`, em endereços IP.
+
+Isso evita a necessidade de memorizar endereços IP para acessar sites e serviços na Internet.
 
 ---
 
 ## DHCP
 
-> 
+DHCP (Dynamic Host Configuration Protocol) é o protocolo responsável por atribuir automaticamente endereços IP e outros parâmetros de rede aos dispositivos conectados.
+
+Entre as configurações fornecidas pelo DHCP estão:
+
+* Endereço IP
+* Gateway padrão
+* Servidores DNS
+
+Isso evita a necessidade de configurar manualmente os parâmetros de rede em cada dispositivo.
 
 ---
 
 ## Conclusão
 
+Durante este estudo, foi possível compreender os conceitos básicos que permitem a comunicação entre dispositivos em uma rede, incluindo endereçamento IP, identificação por MAC, resolução de nomes através do DNS e atribuição automática de configurações por meio do DHCP.
+
+Esses conceitos servirão como base para os próximos estudos relacionados a Windows Server, Active Directory, infraestrutura de redes e computação em nuvem.
 
