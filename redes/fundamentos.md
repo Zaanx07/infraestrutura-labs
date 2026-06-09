@@ -51,28 +51,37 @@ São conjuntos de regras e padrões que definem como os dispositivos se comunica
 - Internet
 - Rede corporativa entre filiais de uma empresa
 
+## Comparação entre LAN e WAN
+
+| Característica | LAN | WAN |
+|---------------|-----|-----|
+| Alcance | Área limitada | Grandes distâncias |
+| Exemplo | Casa, escritório | Internet, filiais |
+| Velocidade | Geralmente maior | Pode variar |
+
 ---
 
 ## Principais Componentes de uma Rede
 
 ### Computador / Host
 
-> 
+É o dispositivo final da rede que envia e recebe dados. Pode ser um computador, impressora, celular ou qualquer outro dispositivo conectado à rede. Possui um endereço IP para ser identificado na comunicação com outros dispositivos.
+
 ### Switch
 
-> 
+É um dispositivo que conecta múltiplos equipamentos dentro de uma rede local (LAN) e encaminha os dados apenas para o destinatário correto. Trabalha principalmente com endereços MAC.
 
 ### Roteador (Router)
 
-> 
+É um dispositivo que conecta diferentes redes entre si e direciona o tráfego de dados entre elas. Utiliza endereços IP para encaminhar as informações e possibilita o acesso à Internet.
 
 ### Modem
 
-> 
+É o dispositivo responsável por converter sinais digitais em analógicos (e vice-versa), permitindo a conexão com a Internet através do provedor de serviços (ISP). É utilizado em conexões de cabo, DSL ou fibra óptica.
 
 ### Servidor
 
-> 
+É o equipamento responsável por fornecer serviços, recursos ou informações para outros dispositivos conectados à rede.
 
 ---
 
