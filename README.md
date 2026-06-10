@@ -40,7 +40,7 @@ Laboratórios e estudos em Microsoft Azure e serviços relacionados.
 
 ## Progresso
 
-* [ ] Fundamentos de Redes
+* [x] Fundamentos de Redes
 * [ ] IPv4 e Sub-redes
 * [ ] DNS
 * [ ] DHCP
