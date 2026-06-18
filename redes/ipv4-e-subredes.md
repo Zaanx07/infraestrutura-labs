@@ -232,6 +232,36 @@ Esse conceito é fundamental para o funcionamento do roteamento, da comunicaçã
 
 ---
 
+## CIDR (Classless Inter-Domain Routing)
+
+O CIDR é um método moderno de representação de redes que substituiu o antigo sistema baseado em classes (A, B e C). Em vez de depender apenas da classe do endereço IP, o CIDR utiliza um **prefixo** para indicar quantos bits pertencem à rede.
+
+Esse prefixo é representado por uma barra seguida de um número.
+
+### Exemplo
+
+```text
+192.168.1.10/24
+```
+
+Nesse caso:
+
+* `192.168.1.10` é o endereço IP.
+* `/24` indica que os primeiros **24 bits** identificam a rede.
+* Os **8 bits restantes** são utilizados para identificar os hosts.
+
+### Equivalência entre CIDR e Máscara de Rede
+
+| Prefixo CIDR | Máscara de Rede |
+| ------------ | --------------- |
+| /8           | 255.0.0.0       |
+| /16          | 255.255.0.0     |
+| /24          | 255.255.255.0   |
+| /25          | 255.255.255.128 |
+| /26          | 255.255.255.192 |
+
+---
+
 ## O que é uma Sub-rede?
 
 Uma sub-rede (subnet) é uma divisão lógica de uma rede maior em redes menores. Ela é criada utilizando a máscara de rede para separar os dispositivos em diferentes segmentos.
