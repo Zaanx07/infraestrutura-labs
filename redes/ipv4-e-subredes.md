@@ -234,8 +234,6 @@ Esse conceito é fundamental para o funcionamento do roteamento, da comunicaçã
 
 ## O que é uma Sub-rede?
 
-## O que é uma Sub-rede?
-
 Uma sub-rede (subnet) é uma divisão lógica de uma rede maior em redes menores. Ela é criada utilizando a máscara de rede para separar os dispositivos em diferentes segmentos.
 
 O principal objetivo das sub-redes é organizar melhor a infraestrutura, reduzir o tráfego desnecessário e facilitar o gerenciamento e a segurança da rede.
