@@ -43,7 +43,7 @@ Compreender os conceitos essenciais de redes TCP/IP e desenvolver conhecimentos 
 ## Status
 
 * [x] Fundamentos de Redes
-* [ ] Análise da Rede Doméstica
-* [ ] IPv4 e Sub-redes
+* [x] Análise da Rede Doméstica
+* [x] IPv4 e Sub-redes
 * [ ] DNS Avançado
 * [ ] DHCP Avançado
